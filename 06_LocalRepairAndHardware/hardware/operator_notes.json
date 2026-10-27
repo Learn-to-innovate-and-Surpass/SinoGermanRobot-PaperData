@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": "WS-0098",
+    "operator_note_original_text": "9到10小步关节大于这台机械臂设计的一次项转动上限（>175度），没有实现碰撞。\r\n成功执行9步。",
+    "source_note_sha256": "83604801613b9bab7e9ba9210afae192e3671a21dcc002e38264f122fb61c1cb",
+    "interpretation_status": "unresolved cause; retain operator statement as a report, not diagnosis"
+  },
+  {
+    "case_id": "WS-0265",
+    "operator_note_original_text": "这次执行第一次失败，说碰撞了，实际没有，再次执行成功。疑似设备传感器不灵敏。",
+    "source_note_sha256": "0022bea7c6407d7209c71bdc19d592ff116faf451bda5e774b129c9af2293fb5",
+    "interpretation_status": "unresolved cause; retain operator statement as a report, not diagnosis"
+  }
+]

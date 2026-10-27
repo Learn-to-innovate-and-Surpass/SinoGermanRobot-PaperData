@@ -1,0 +1,422 @@
+{
+  "verified_from_recorded_data": true,
+  "new_simulations_run": false,
+  "new_hardware_tests": 0,
+  "summary_rows": [
+    {
+      "stage": "VI1",
+      "cohort": "random1000",
+      "configuration": "baseline",
+      "budget": "baseline",
+      "planned_n": 1000,
+      "geometric_pass_n": 15,
+      "geometric_pass_rate": 0.015,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/baseline/random",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "S1000",
+      "configuration": "baseline",
+      "budget": "baseline",
+      "planned_n": 1000,
+      "geometric_pass_n": 237,
+      "geometric_pass_rate": 0.237,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/baseline/S",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "random1000",
+      "configuration": "new",
+      "budget": "5",
+      "planned_n": 1000,
+      "geometric_pass_n": 0,
+      "geometric_pass_rate": 0.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/new/random",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "random1000",
+      "configuration": "new",
+      "budget": "10",
+      "planned_n": 1000,
+      "geometric_pass_n": 0,
+      "geometric_pass_rate": 0.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/new/random",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "random1000",
+      "configuration": "new",
+      "budget": "30",
+      "planned_n": 1000,
+      "geometric_pass_n": 0,
+      "geometric_pass_rate": 0.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/new/random",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "S1000",
+      "configuration": "new",
+      "budget": "5",
+      "planned_n": 1000,
+      "geometric_pass_n": 0,
+      "geometric_pass_rate": 0.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/new/S",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "S1000",
+      "configuration": "new",
+      "budget": "10",
+      "planned_n": 1000,
+      "geometric_pass_n": 0,
+      "geometric_pass_rate": 0.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/new/S",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI1",
+      "cohort": "S1000",
+      "configuration": "new",
+      "budget": "30",
+      "planned_n": 1000,
+      "geometric_pass_n": 0,
+      "geometric_pass_rate": 0.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI1/results/new/S",
+      "scope_notes": "frozen180; no new hardware test"
+    },
+    {
+      "stage": "VI2",
+      "cohort": "S1000",
+      "configuration": "S1000_frozen",
+      "budget": "",
+      "planned_n": 1000,
+      "geometric_pass_n": 426,
+      "geometric_pass_rate": 0.426,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI2/results/S1000_frozen/cases",
+      "scope_notes": "historical union is post-hoc; unequal computation"
+    },
+    {
+      "stage": "VI2",
+      "cohort": "S1000",
+      "configuration": "S1000_historical_union",
+      "budget": "",
+      "planned_n": 1000,
+      "geometric_pass_n": 562,
+      "geometric_pass_rate": 0.562,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI2/results/S1000_historical_union/cases",
+      "scope_notes": "historical union is post-hoc; unequal computation"
+    },
+    {
+      "stage": "VI2",
+      "cohort": "random1000",
+      "configuration": "random_extra_seed",
+      "budget": "",
+      "planned_n": 1000,
+      "geometric_pass_n": 25,
+      "geometric_pass_rate": 0.025,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI2/results/random_extra_seed/cases",
+      "scope_notes": "historical union is post-hoc; unequal computation"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "S1000",
+      "configuration": "local_blocks_historical1000",
+      "budget": "",
+      "planned_n": 1000,
+      "geometric_pass_n": 1000,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": 400,
+      "strict_source_pass_n": 0,
+      "evidence": "VI3/results/local_blocks_historical1000/cases",
+      "scope_notes": "frozen research geometry; not the current-web migration"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "S1000",
+      "configuration": "local_blocks_historical1000",
+      "budget": "5",
+      "planned_n": 1000,
+      "geometric_pass_n": 848,
+      "geometric_pass_rate": 0.848,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/local_blocks_historical1000/summary.json",
+      "scope_notes": "observed/held states must be distinguished"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "S1000",
+      "configuration": "local_blocks_historical1000",
+      "budget": "10",
+      "planned_n": 1000,
+      "geometric_pass_n": 1000,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/local_blocks_historical1000/summary.json",
+      "scope_notes": "observed/held states must be distinguished"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "S1000",
+      "configuration": "local_blocks_historical1000",
+      "budget": "30",
+      "planned_n": 1000,
+      "geometric_pass_n": 1000,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/local_blocks_historical1000/summary.json",
+      "scope_notes": "observed/held states must be distinguished"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "local_B200",
+      "configuration": "local_blocks_fresh200_local",
+      "budget": "",
+      "planned_n": 200,
+      "geometric_pass_n": 200,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": 80,
+      "strict_source_pass_n": 0,
+      "evidence": "VI3/results/local_blocks_fresh200_local/cases",
+      "scope_notes": "frozen research geometry; not the current-web migration"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "local_B200",
+      "configuration": "local_blocks_fresh200_local",
+      "budget": "5",
+      "planned_n": 200,
+      "geometric_pass_n": 165,
+      "geometric_pass_rate": 0.825,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/local_blocks_fresh200_local/summary.json",
+      "scope_notes": "observed/held states must be distinguished"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "local_B200",
+      "configuration": "local_blocks_fresh200_local",
+      "budget": "10",
+      "planned_n": 200,
+      "geometric_pass_n": 200,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/local_blocks_fresh200_local/summary.json",
+      "scope_notes": "observed/held states must be distinguished"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "local_B200",
+      "configuration": "local_blocks_fresh200_local",
+      "budget": "30",
+      "planned_n": 200,
+      "geometric_pass_n": 200,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/local_blocks_fresh200_local/summary.json",
+      "scope_notes": "observed/held states must be distinguished"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "S1000",
+      "configuration": "historical1000",
+      "budget": "",
+      "planned_n": 1000,
+      "geometric_pass_n": 400,
+      "geometric_pass_rate": 0.4,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/historical1000/cases",
+      "scope_notes": "regression/prototype stage; 90 and 360 results are separate runs"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "regression_A200",
+      "configuration": "fresh200",
+      "budget": "",
+      "planned_n": 200,
+      "geometric_pass_n": 80,
+      "geometric_pass_rate": 0.4,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/fresh200/cases",
+      "scope_notes": "regression/prototype stage; 90 and 360 results are separate runs"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "S1000",
+      "configuration": "cap360_historical1000",
+      "budget": "",
+      "planned_n": 1000,
+      "geometric_pass_n": 400,
+      "geometric_pass_rate": 0.4,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/cap360_historical1000/cases",
+      "scope_notes": "regression/prototype stage; 90 and 360 results are separate runs"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "regression_A200",
+      "configuration": "cap360_fresh200",
+      "budget": "",
+      "planned_n": 200,
+      "geometric_pass_n": 80,
+      "geometric_pass_rate": 0.4,
+      "geometry_and_feature_pass_n": "",
+      "strict_source_pass_n": "",
+      "evidence": "VI3/results/cap360_fresh200/cases",
+      "scope_notes": "regression/prototype stage; 90 and 360 results are separate runs"
+    },
+    {
+      "stage": "VI3",
+      "cohort": "development_probes",
+      "configuration": "source_bounded",
+      "budget": "",
+      "planned_n": 3,
+      "geometric_pass_n": 3,
+      "geometric_pass_rate": 1.0,
+      "geometry_and_feature_pass_n": 0,
+      "strict_source_pass_n": 3,
+      "evidence": "VI3/probes/results/local_blocks_source_bounded_dev/summary.json",
+      "scope_notes": "three development probes, not pooled with main cohorts"
+    }
+  ],
+  "additional_counts": [
+    {
+      "study": "S1000_frozen",
+      "development_23_of_50": true,
+      "heldout_403_of_950": true,
+      "pre_archive_success_n": 400
+    },
+    {
+      "study": "S1000_historical_union",
+      "old_bank_n": 546,
+      "posthoc_union_n": 562,
+      "new_only_n": 16
+    }
+  ],
+  "input_index_rows": 2400,
+  "VI3_actual_saved_checkpoint_files": {
+    "S1000": 152,
+    "B200": 35
+  },
+  "source_bounded_probes": {
+    "n": 3,
+    "geometry": 3,
+    "strict_source": 3,
+    "geometry_and_feature": 0
+  },
+  "independent_per_case_budget_recounts": [
+    {
+      "study": "local_blocks_historical1000",
+      "budget": 5,
+      "recorded_cases": 1000,
+      "observed_states": 1000,
+      "geometry_passes": 848,
+      "per_case_recount_passed": true
+    },
+    {
+      "study": "local_blocks_historical1000",
+      "budget": 10,
+      "recorded_cases": 1000,
+      "observed_states": 1000,
+      "geometry_passes": 1000,
+      "per_case_recount_passed": true
+    },
+    {
+      "study": "local_blocks_historical1000",
+      "budget": 30,
+      "recorded_cases": 1000,
+      "observed_states": 1000,
+      "geometry_passes": 1000,
+      "per_case_recount_passed": true
+    },
+    {
+      "study": "local_blocks_fresh200_local",
+      "budget": 5,
+      "recorded_cases": 200,
+      "observed_states": 200,
+      "geometry_passes": 165,
+      "per_case_recount_passed": true
+    },
+    {
+      "study": "local_blocks_fresh200_local",
+      "budget": 10,
+      "recorded_cases": 200,
+      "observed_states": 200,
+      "geometry_passes": 200,
+      "per_case_recount_passed": true
+    },
+    {
+      "study": "local_blocks_fresh200_local",
+      "budget": 30,
+      "recorded_cases": 200,
+      "observed_states": 200,
+      "geometry_passes": 200,
+      "per_case_recount_passed": true
+    }
+  ],
+  "independent_paired_offset_recounts": [
+    {
+      "file": "historical1000_offset_paired_comparison.json",
+      "n": 400,
+      "strictly_smaller_offset_n": 304,
+      "median_reduction_deg": 0.8351185512351833,
+      "verified": true
+    },
+    {
+      "file": "fresh200_offset_paired_comparison.json",
+      "n": 80,
+      "strictly_smaller_offset_n": 57,
+      "median_reduction_deg": 2.028998992111383,
+      "verified": true
+    }
+  ],
+  "original_geometry_recounts": [
+    {
+      "dataset": "random",
+      "n": 1000,
+      "original_geometric_pass_n": 0
+    },
+    {
+      "dataset": "S",
+      "n": 1000,
+      "original_geometric_pass_n": 0
+    }
+  ]
+}

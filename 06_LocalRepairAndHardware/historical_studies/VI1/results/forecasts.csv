@@ -1,0 +1,9 @@
+﻿dataset,target_success_rate,observed_first_round,estimated_round,extrapolates_beyond_30,status,guarantees_population_success
+random,0.9,,,,not_estimable_from_unidentified_curve,False
+random,0.95,,,,not_estimable_from_unidentified_curve,False
+random,0.99,,,,not_estimable_from_unidentified_curve,False
+random,1.0,,,,no_finite_round_can_guarantee_100_percent,False
+S,0.9,,,,not_estimable_from_unidentified_curve,False
+S,0.95,,,,not_estimable_from_unidentified_curve,False
+S,0.99,,,,not_estimable_from_unidentified_curve,False
+S,1.0,,,,no_finite_round_can_guarantee_100_percent,False

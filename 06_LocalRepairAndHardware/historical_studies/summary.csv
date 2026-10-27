@@ -1,0 +1,25 @@
+﻿stage,cohort,configuration,budget,planned_n,geometric_pass_n,geometric_pass_rate,geometry_and_feature_pass_n,strict_source_pass_n,evidence,scope_notes
+VI1,random1000,baseline,baseline,1000,15,0.015,,,VI1/results/baseline/random,frozen180; no new hardware test
+VI1,S1000,baseline,baseline,1000,237,0.237,,,VI1/results/baseline/S,frozen180; no new hardware test
+VI1,random1000,new,5,1000,0,0.0,,,VI1/results/new/random,frozen180; no new hardware test
+VI1,random1000,new,10,1000,0,0.0,,,VI1/results/new/random,frozen180; no new hardware test
+VI1,random1000,new,30,1000,0,0.0,,,VI1/results/new/random,frozen180; no new hardware test
+VI1,S1000,new,5,1000,0,0.0,,,VI1/results/new/S,frozen180; no new hardware test
+VI1,S1000,new,10,1000,0,0.0,,,VI1/results/new/S,frozen180; no new hardware test
+VI1,S1000,new,30,1000,0,0.0,,,VI1/results/new/S,frozen180; no new hardware test
+VI2,S1000,S1000_frozen,,1000,426,0.426,,,VI2/results/S1000_frozen/cases,historical union is post-hoc; unequal computation
+VI2,S1000,S1000_historical_union,,1000,562,0.562,,,VI2/results/S1000_historical_union/cases,historical union is post-hoc; unequal computation
+VI2,random1000,random_extra_seed,,1000,25,0.025,,,VI2/results/random_extra_seed/cases,historical union is post-hoc; unequal computation
+VI3,S1000,local_blocks_historical1000,,1000,1000,1.0,400,0,VI3/results/local_blocks_historical1000/cases,frozen research geometry; not the current-web migration
+VI3,S1000,local_blocks_historical1000,5,1000,848,0.848,,,VI3/results/local_blocks_historical1000/summary.json,observed/held states must be distinguished
+VI3,S1000,local_blocks_historical1000,10,1000,1000,1.0,,,VI3/results/local_blocks_historical1000/summary.json,observed/held states must be distinguished
+VI3,S1000,local_blocks_historical1000,30,1000,1000,1.0,,,VI3/results/local_blocks_historical1000/summary.json,observed/held states must be distinguished
+VI3,local_B200,local_blocks_fresh200_local,,200,200,1.0,80,0,VI3/results/local_blocks_fresh200_local/cases,frozen research geometry; not the current-web migration
+VI3,local_B200,local_blocks_fresh200_local,5,200,165,0.825,,,VI3/results/local_blocks_fresh200_local/summary.json,observed/held states must be distinguished
+VI3,local_B200,local_blocks_fresh200_local,10,200,200,1.0,,,VI3/results/local_blocks_fresh200_local/summary.json,observed/held states must be distinguished
+VI3,local_B200,local_blocks_fresh200_local,30,200,200,1.0,,,VI3/results/local_blocks_fresh200_local/summary.json,observed/held states must be distinguished
+VI3,S1000,historical1000,,1000,400,0.4,,,VI3/results/historical1000/cases,regression/prototype stage; 90 and 360 results are separate runs
+VI3,regression_A200,fresh200,,200,80,0.4,,,VI3/results/fresh200/cases,regression/prototype stage; 90 and 360 results are separate runs
+VI3,S1000,cap360_historical1000,,1000,400,0.4,,,VI3/results/cap360_historical1000/cases,regression/prototype stage; 90 and 360 results are separate runs
+VI3,regression_A200,cap360_fresh200,,200,80,0.4,,,VI3/results/cap360_fresh200/cases,regression/prototype stage; 90 and 360 results are separate runs
+VI3,development_probes,source_bounded,,3,3,1.0,0,3,VI3/probes/results/local_blocks_source_bounded_dev/summary.json,"three development probes, not pooled with main cohorts"

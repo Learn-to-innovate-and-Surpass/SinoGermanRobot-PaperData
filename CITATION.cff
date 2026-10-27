@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+type: dataset
+message: "If you use these research data, cite this dataset, its release version, and the packages used."
+title: "SinoGermanRobot Paper Data"
+authors:
+  - family-names: "任"
+    given-names: "皓琛"
+  - family-names: "刘"
+    given-names: "春平"
+version: "1.0.0"
+date-released: "2026-10-28"
+url: "https://github.com/Learn-to-innovate-and-Surpass/SinoGermanRobot-PaperData"
+license: CC-BY-4.0
+keywords:
+  - robotics
+  - trajectory repair
+  - collision checking
+  - research data
+  - VLA data preparation
+abstract: >-
+  Archived research data supporting visual modeling and collision-guided
+  trajectory repair for industrial manipulators. The collection includes
+  complete offline input and outcome records, failed and successful candidates,
+  source-augmented and independent-random trajectory experiments, small modeling
+  and programming-efficiency studies, and a limited recorded hardware sample.
+  It is not a training-ready VLA dataset. New collision-optimization source code
+  and its execution environment are not included.

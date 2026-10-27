@@ -1,0 +1,40 @@
+{
+  "stage": "VI1–VI3 frozen offline research before the 06 current-web migration",
+  "phases": {
+    "VI1": {
+      "data_files": 12018,
+      "public_bytes": 203103709,
+      "source_bytes": 186678442,
+      "unpacked_json_gzip_files": 8000
+    },
+    "VI2": {
+      "data_files": 7345,
+      "public_bytes": 187227633,
+      "source_bytes": 186687049,
+      "unpacked_json_gzip_files": 1000
+    },
+    "VI3": {
+      "data_files": 6744,
+      "public_bytes": 70971589,
+      "source_bytes": 75042829,
+      "unpacked_json_gzip_files": 0
+    }
+  },
+  "entry_points": [
+    "summary.csv",
+    "paper_result_checks.json",
+    "input_index.csv"
+  ],
+  "shared_inputs_indexed": {
+    "01_random": 1000,
+    "04_S_series": 1000
+  },
+  "new_inputs": {
+    "regression_A200": 200,
+    "local_B200": 200
+  },
+  "fitted_parameter_data": [
+    "VI3/model_data/fitted_offsets.json"
+  ],
+  "no_new_experiment_run": true
+}

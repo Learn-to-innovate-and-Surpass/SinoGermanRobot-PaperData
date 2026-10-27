@@ -1,0 +1,11 @@
+{
+  "scope": "Publication-time public reference snapshots, not replacements for frozen experimental contracts.",
+  "SinoGermanRobot": {
+    "repository": "https://github.com/Learn-to-innovate-and-Surpass/SinoGermanRobot",
+    "commit": "becefb26f2d5c9d4ad79d2e7ae50a046dbae47fd"
+  },
+  "InventorBridge": {
+    "repository": "https://github.com/Learn-to-innovate-and-Surpass/InventorBridge",
+    "commit": "0495e040775f2e273115498058d3ece01cbe5972"
+  }
+}

@@ -1,0 +1,4 @@
+﻿bound_deg,planned_n,completed_n,geometric_pass_n,geometric_fail_n,error_n,core_elapsed_mean_s,physical_tests_in_this_batch
+35,1000,1000,0,1000,0,4.25541070199995,0
+40,1000,1000,0,1000,0,4.466473558600221,0
+90,1000,1000,0,1000,0,5.379596697700152,0
